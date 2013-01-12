@@ -18,6 +18,9 @@ abstract class OopConfig_Modules_Abstract {
 			if (!($var instanceof OopConfig_Modules_Abstract_Part)) {
 				continue;
 			}
+			if (!$var->hasValue()) {
+				continue;
+			}
 			$result[$name] = $var->toArray();
 		}
 		return $result;

@@ -26,7 +26,7 @@ class SomeConfigTest extends PHPUnit_Framework_TestCase {
 		$auto   = OopConfig::create()->someConfig
 			->fields->add('field1')->addDistinct('field2')->up
 			->where->fieldIs('field', 123)->up
-			->order->add('created', 'field3 DESC')
+			->order->add('created', 'field3 DESC')->up
 			->get()
 		;
 

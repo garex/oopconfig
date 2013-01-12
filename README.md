@@ -32,7 +32,7 @@ We want to transform it to something like:
     $someConfig = $oopconfig->someConfig
         ->fields->add('field1')->addDistinct('field2')->up
         ->where->fieldIs('field', 123)->up
-        ->order->add('created', 'field3 DESC')
+        ->order->add('created', 'field3 DESC')->up
         ->get()
     ;
 ```
