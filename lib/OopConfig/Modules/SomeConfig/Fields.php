@@ -1,7 +1,6 @@
 <?php
 /**
- * Adding fields into some config
- *
+ * @see OopConfig_Modules_SomeConfig
  * @author Ustimenko Alexander <a@ustimen.co>
  * @copyright  2013 Ustimenko Alexander <a@ustimen.co>
  */
