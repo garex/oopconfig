@@ -30,12 +30,25 @@ We want to transform it to something like:
 
 ```php
     $someConfig = $oopconfig->someConfig
-        ->select->field('field1')->distinctField('field2')->up
+        ->fields->add('field1')->addDistinct('field2')->up
         ->where->fieldIs('field', 123)->up
-        ->order->fields('created', 'field3 DESC')
+        ->order->add('created', 'field3 DESC')
         ->get()
     ;
 ```
 
 From first view it looks like more code, but in each code completion cycle we see only relevant methods
 each of them has documentation.
+
+## Tests
+
+To check, that it works we will use PHPUnit:
+
+```bash
+
+    cd $oopconfig;
+    phpunit tests
+
+```
+
+Details are inside tests/OopConfig.
