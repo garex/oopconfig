@@ -67,7 +67,8 @@ abstract class OopConfig_Modules_Abstract_Part {
 
 	/**
 	 * Sets associative value into result
-	 * @param string $value
+	 * @param string $key
+	 * @param mixed $value
 	 * @return OopConfig_Modules_Abstract_Part
 	 */
 	protected function _setAssoc($key, $value) {
