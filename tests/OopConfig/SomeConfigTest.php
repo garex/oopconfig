@@ -7,7 +7,7 @@ class SomeConfigTest extends PHPUnit_Framework_TestCase {
 			'fields' => array('field1', 'DISTINCT field2'),
 		);
 
-		$auto   = $oopconfig->someConfig
+		$auto   = OopConfig::create()->someConfig
 			->fields->add('field1')->addDistinct('field2')->up
 			->get()
 		;

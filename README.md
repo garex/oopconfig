@@ -45,10 +45,8 @@ each of them has documentation.
 To check, that it works we will use PHPUnit:
 
 ```bash
-
-    cd $oopconfig;
-    phpunit tests
-
+    cd $oopconfig
+    phpunit
 ```
 
 Details are inside tests/OopConfig.
