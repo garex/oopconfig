@@ -72,6 +72,7 @@ abstract class OopConfig_Modules_Abstract_Part {
 	 * @return OopConfig_Modules_Abstract_Part
 	 */
 	protected function _setAssoc($key, $value) {
+		$key = trim($key);
 		$this->_result[$key] = $value;
 		return $this->_afterChange();
 	}
