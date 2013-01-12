@@ -4,7 +4,7 @@
  * Some kind of array builder.
  *
  * @author Ustimenko Alexander <a@ustimen.co>
- * @copyright  2013 Ustimenko Alexander <a@ustimen.co>
+ * @copyright 2013 Ustimenko Alexander <a@ustimen.co>
  */
 class OopConfig {
 

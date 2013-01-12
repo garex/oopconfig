@@ -2,7 +2,7 @@
 /**
  * @see OopConfig_Modules_SomeConfig
  * @author Ustimenko Alexander <a@ustimen.co>
- * @copyright  2013 Ustimenko Alexander <a@ustimen.co>
+ * @copyright 2013 Ustimenko Alexander <a@ustimen.co>
  */
 class OopConfig_Modules_SomeConfig_Fields extends OopConfig_Modules_Abstract_Part {
 

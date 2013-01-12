@@ -3,7 +3,7 @@
  * Abstract module, that implements common method like "get()"
  *
  * @author Ustimenko Alexander <a@ustimen.co>
- * @copyright  2013 Ustimenko Alexander <a@ustimen.co>
+ * @copyright 2013 Ustimenko Alexander <a@ustimen.co>
  */
 abstract class OopConfig_Modules_Abstract {
 
